@@ -1,8 +1,11 @@
 # 🖥️ GLPI IT Asset Management — Full Deployment
-📦 [glpi-asset-management](https://github.com/AymanAhmedAli/glpi-asset-management) — GLPI deployment for 1,500+ users with Python automation
 
 > End-to-end IT Asset Management implementation for a fast-growing PropTech company in Egypt, covering multiple office locations across Cairo.
 
+---
+## 📸 Screenshots
+
+![GLPI Dashboard](screenshots/glpi_dashboard.png)
 ---
 
 ## 📋 Table of Contents
