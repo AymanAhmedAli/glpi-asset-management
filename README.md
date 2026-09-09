@@ -36,8 +36,8 @@ Deployed and fully configured **GLPI** (Gestionnaire Libre de Parc Informatique)
 - Configured VM auto-start on host boot to ensure availability after power outages
 
 ### Network Access
-- Configured **FortiGate VPN** policies to allow access across multiple office branches
-- Set up Phase 2 Selectors and Firewall Policies for inter-branch connectivity
+- Configured VPN policies to allow access 
+  across multiple office branches
 - Enabled **GLPI REST API** (Legacy mode) for programmatic access
 
 ### Server Stack
@@ -56,13 +56,13 @@ Proxmox Hypervisor
 
 ```
 ┌─────────────────────────────────────────────────────┐
-│                  NAWY Office Network                 │
-│                                                      │
-│  Branch 1 ──┐                                        │
-│  Branch 2 ──┤                                        │
-│  Branch 3 ──┤── FortiGate VPN ── GLPI VM (Proxmox) │
-│  Branch 4 ──┤                                        │
-│  Branch 5 ──┘                                        │
+│                  NAWY Office Network                │
+│                                                     │
+│  Branch 1 ──┐                                       │
+│  Branch 2 ──┤                                       │
+│  Branch 3 ──┤── VPN ── GLPI VM (Proxmox)            │
+│  Branch 4 ──┤                                       │
+│  Branch 5 ──┘                                       │
 └─────────────────────────────────────────────────────┘
 ```
 
